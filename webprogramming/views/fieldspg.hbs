@@ -1,0 +1,86 @@
+<h1 class="pagetitle">{{title}}</h1>
+<a href="/fields-get" class="see">see fields</a>
+<a href="/" class="back">go back to homepage</a>
+
+<section class="insert">
+    <h3>add field</h3>
+    <form action="/fields-insert" method="post">
+        <div class="input">
+            <label for="typeName">type name</label>
+            <input type="text" id="typeName" name="typeName">
+        </div>
+        <div class="input">
+            <label for="priceForHour">price for hour</label>
+            <input type="text" id="priceForHour" name="priceForHour">
+        </div>
+        <div class="input">
+            <label for="priceForHalfHour">price for half hour</label>
+            <input type="text" id="priceForHalfHour" name="priceForHalfHour">
+        </div>
+        <div class="input">
+            <label for="priceForQuaterHour">price for quater hour</label>
+            <input type="text" id="priceForQuaterHour" name="priceForQuaterHour">
+        </div>
+        <div class="input">
+            <label for="half">half</label>
+            <input type="text" id="half" name="half">
+        </div>
+        <div class="input">
+            <label for="quater">quater</label>
+            <input type="text" id="quater" name="quater">
+        </div>
+        <div class="input">
+            <label for="status">status</label>
+            <input type="text" id="status" name="status">
+        </div>
+        <button type="submit">insert</button>
+    </form>
+</section>
+<section class="update">
+    <h3>update field data</h3>
+    <form action="/fields-update" method="post">
+        <div class="input">
+            <label for="id">id</label>
+            <input type="text" id="id" name="id">
+        </div>
+        <div class="input">
+            <label for="typeName">type name</label>
+            <input type="text" id="typeName" name="typeName">
+        </div>
+        <div class="input">
+            <label for="priceForHour">price for hour</label>
+            <input type="text" id="priceForHour" name="priceForHour">
+        </div>
+        <div class="input">
+            <label for="priceForHalfHour">price for half hour</label>
+            <input type="text" id="priceForHalfHour" name="priceForHalfHour">
+        </div>
+        <div class="input">
+            <label for="priceForQuaterHour">price for quater hour</label>
+            <input type="text" id="priceForQuaterHour" name="priceForQuaterHour">
+        </div>
+        <div class="input">
+            <label for="half">half</label>
+            <input type="text" id="half" name="half">
+        </div>
+        <div class="input">
+            <label for="quater">quater</label>
+            <input type="text" id="quater" name="quater">
+        </div>
+        <div class="input">
+            <label for="status">status</label>
+            <input type="text" id="status" name="status">
+        </div>
+        <button type="submit">update</button>
+    </form>
+</section>
+<section class="delete">
+    <h3>delete field by id</h3>
+    <form action="/fields-delete" method="post">
+        <div class="input">
+            <label for="id">ID</label>
+            <input type="text" id="id" name="id">
+        </div>
+        <button type="submit">delete</button>
+    </form>
+</section>

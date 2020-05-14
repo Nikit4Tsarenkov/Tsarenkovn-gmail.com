@@ -1,0 +1,16 @@
+<h1 class="gettitle">orders</h1>
+<h1 class="reload"><a href="/orders-get" >reload data</a></h1>
+<h1 class="previous"><a href="orderspg" >go back to order page</a></h1>
+<div>
+    {{# each items }}
+        <article class="item">
+            <div>visitor id: {{this.visitor_id}}</div>
+            <div>field id: {{ this.field_id }}</div>
+            <div>admin id: {{ this.administrator_id }}</div>
+            <div>day: {{ this.calendar_day }}</div>
+            <div>start time: {{ this.starts_at }}</div>
+            <div>end time: {{ this.ends_at }}</div>
+            <div>status: {{ this.order_status }}</div>
+        </article>
+    {{/each}}
+</div>

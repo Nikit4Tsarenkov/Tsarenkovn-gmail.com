@@ -1,0 +1,16 @@
+<h1 class="gettitle">fields</h1>
+<h1 class="reload"><a href="/fields-get">reload fields data</a></h1>
+<h1 class="previous"><a href="fieldspg">go back to fields page</a></h1>
+<div>
+    {{# each items }}
+        <article class="item">
+            <div>id: {{this.id}}</div>
+            <div>price for hour: {{ this.price_for_hour }} bel. rub.</div>
+            <div>price for half hour: {{ this.price_for_half_hour }} bel. rub.</div>
+            <div>price for quater hour: {{ this.price_for_quater_hour }} bel. rub.</div>
+            <div>half: {{ this.half }}</div>
+            <div>quater: {{ this.quater }}</div>
+            <div>status: {{ this.field_status }}</div>
+        </article>
+    {{/each}}
+</div>

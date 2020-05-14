@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none
+}
+.gettitle {
+    text-align: center;
+}
+.previous {
+    text-align: center;
+}
+
+.reload {
+    text-align: center;
+}
+.see {
+    position: fixed;
+    right: 0;
+    margin-right: 10%;
+    margin-top: 10%;
+    font-size: 40px;
+}
+.back {
+    position: fixed;
+    right: 0;
+    margin-right: 6%;
+    margin-top: 13%;
+    font-size: 40px;
+}
+.list{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: lavender;
+    margin-bottom: 10px;
+}
+
+.pagetitle{
+    text-align: center;
+}
+
+.div_for_safc {
+    width: 100%;
+    margin-top: 25px;
+    position: fixed;
+}
+.safc {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+section {
+    float: left;
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    min-height: 400px;
+}
+
+section h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.get {
+    background: #ecf0f1;
+}
+
+.insert {
+    margin-left: 13%;
+    background: honeydew;
+}
+
+.update {
+    background: honeydew;
+}
+
+.delete {
+    background: honeydew;
+}
+
+.input label {
+    display: block;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+input,
+button {
+    font: inherit;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 29%;
+    width: 8em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #bdc3c7;
+}
+
+.item {
+
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 15px;
+    padding: 5px;
+    background: honeydew;
+}

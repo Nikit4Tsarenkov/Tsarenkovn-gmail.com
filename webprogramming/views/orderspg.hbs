@@ -1,0 +1,87 @@
+<h1 class="pagetitle">{{title}}</h1>
+<a href="/orders-get" class="see">see orders</a>
+<a href="/" class="back">go back to homepage</a>
+
+<section class="insert">
+    <h3>add order</h3>
+    <form action="/orders-insert" method="post">
+        <div class="input">
+            <label for="visitorId">visitor id</label>
+            <input type="text" id="visitorId" name="visitorId">
+        </div>
+        <div class="input">
+            <label for="fieldId">field id</label>
+            <input type="text" id="fieldId" name="fieldId">
+        </div>
+        <div class="input">
+            <label for="adminId">admin id</label>
+            <input type="text" id="adminId" name="adminId">
+        </div>
+        <div class="input">
+            <label for="day">calendar day</label>
+            <input type="text" id="day" name="day">
+        </div>
+        <div class="input">
+            <label for="startsAt">start time</label>
+            <input type="text" id="startsAt" name="startsAt">
+        </div>
+        <div class="input">
+            <label for="endsAt">end time</label>
+            <input type="text" id="endsAt" name="endsAt">
+        </div>
+        <div class="input">
+            <label for="status">status</label>
+            <input type="text" id="status" name="status">
+        </div>
+        <button type="submit">insert</button>
+    </form>
+</section>
+<section class="update">
+    <h3>update order data</h3>
+    <form action="/orders-update" method="post">
+        <div class="input">
+            <label for="id">order id</label>
+            <input type="text" id="id" name="id">
+        </div>
+        <div class="input">
+            <label for="visitorId">visitor id</label>
+            <input type="text" id="visitorId" name="visitorId">
+        </div>
+        <div class="input">
+            <label for="fieldId">field id</label>
+            <input type="text" id="fieldId" name="fieldId">
+        </div>
+        <div class="input">
+            <label for="adminId">admin id</label>
+            <input type="text" id="adminId" name="adminId">
+        </div>
+        <div class="input">
+            <label for="day">calendar day</label>
+            <input type="text" id="day" name="day">
+        </div>
+        <div class="input">
+            <label for="startsAt">start time</label>
+            <input type="text" id="startsAt" name="startsAt">
+        </div>
+        <div class="input">
+            <label for="endsAt">end time</label>
+            <input type="text" id="endsAt" name="endsAt">
+        </div>
+        <div class="input">
+            <label for="status">status</label>
+            <input type="text" id="status" name="status">
+        </div>
+        <button type="submit">update</button>
+    </form>
+</section>
+<section class="delete">
+    <h3>delete order by id</h3>
+    <form action="/orders-delete" method="post">
+        <div class="input">
+            <label for="id">ID</label>
+            <input type="text" id="id" name="id">
+        </div>
+        <button type="submit">delete</button>
+    </form>
+</section>
+

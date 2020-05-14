@@ -1,0 +1,13 @@
+<h1 class="gettitle">admins</h1>
+<h1  class="reload"><a href="/admins-get">reload data</a></h1>
+<h1 class="previous"><a href="/" >go back home page</a></h1>
+<div>
+    {{# each items }}
+        <article class="item">
+            <div>id: {{this.id}}</div>
+            <div>name: {{ this.name }}</div>
+            <div>surname: {{ this.surname }}</div>
+            <div>phone: {{ this.phone_number }}</div>
+        </article>
+    {{/each}}
+</div>

@@ -1,0 +1,63 @@
+<h1 class="pagetitle">{{title}}</h1>
+<a href="/visitors-get" class="see">see visitors</a>
+<a href="/" class="back">go back to homepage</a>
+
+<section class="insert">
+    <h3>add visitor</h3>
+    <form action="/visitors-insert" method="post">
+        <div class="input">
+            <label for="name">name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="input">
+            <label for="surname">surname</label>
+            <input type="text" id="surname" name="surname">
+        </div>
+        <div class="input">
+            <label for="address">address</label>
+            <input type="text" id="address" name="address">
+        </div>
+        <div class="input">
+            <label for="phone">phone</label>
+            <input type="text" id="phone" name="phone">
+        </div>
+        <button type="submit">insert</button>
+    </form>
+</section>
+<section class="update">
+    <h3>update visitor data</h3>
+    <form action="/visitors-update" method="post">
+        <div class="input">
+            <label for="id">id</label>
+            <input type="text" id="id" name="id">
+        </div>
+        <div class="input">
+            <label for="name">name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="input">
+            <label for="surname">surname</label>
+            <input type="text" id="surname" name="surname">
+        </div>
+        <div class="input">
+            <label for="address">address</label>
+            <input type="text" id="address" name="address">
+        </div>
+        <div class="input">
+            <label for="phone">phone</label>
+            <input type="text" id="phone" name="phone">
+        </div>
+        <button type="submit">update</button>
+    </form>
+</section>
+<section class="delete">
+    <h3>delete visitor by id</h3>
+    <form action="/visitors-delete" method="post">
+        <div class="input">
+            <label for="id">ID</label>
+            <input type="text" id="id" name="id">
+        </div>
+        <button type="submit">delete</button>
+    </form>
+</section>
+
